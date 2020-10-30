@@ -1,0 +1,73 @@
+<html>
+	<head>
+		<title>BOM - Bill of Materials</title>
+	</head>
+	<body>
+		<style type="text/css">
+			@page { 
+				size: landscape;
+			}
+			body, h1, h3 {
+				font-family: Arial, Helvetica, sans-serif;				
+			}
+			table.bom-table {
+				font-size: 12px;
+				border: 1px solid #CCC;
+				font-family: Arial, Helvetica, sans-serif;
+				border-collapse: collapse;
+			}
+			.bom-table td {
+				padding: 4px;
+				margin: 3px;
+				border: 1px solid #CCC;
+			}
+			.bom-table th {
+				background-color: #104E8B;
+				color: #FFF;
+				font-weight: bold;
+				border-right: 1px solid #FFF;
+			}
+			.bom-table th:last-child {
+				border-right: none;
+			}
+			.bom-table tbody tr:nth-child(even) td {
+				background-color: #EFEFEF;
+			}
+			a, a:visited {
+				color: #000;
+			}
+			a:hover {
+				color: #0099CC;
+			}
+			@media print {
+    			.bom-table td:nth-child(8) {display:none}
+    			.bom-table th:nth-child(8) {display:none}
+    			.bom-table td:nth-child(9) {display:none}
+    			.bom-table th:nth-child(9) {display:none}
+    			.bom-table td:nth-child(10) {display:none}
+    			.bom-table th:nth-child(10) {display:none}
+    			.bom-table td:nth-child(11) {display:none}
+    			.bom-table th:nth-child(11) {display:none}
+    			.bom-table td:nth-child(12) {display:none}
+    			.bom-table th:nth-child(12) {display:none}
+    			a { color:#000; text-decoration: none; }
+    			a:visited { color:#000; text-decoration: none; }
+			}
+		</style>
+		<h1>Bill of Materials</h1>
+		<h3>filament-sentinel-as-microswitch</h3>
+		<table class="bom-table">
+			<thead><tr class="bom-firstrow"><th>Part</th><th>Value</th><th>Device</th><th>Package</th><th>Description</th><th>Manufacturer Name</th><th>Manufacturer Part Number</th><th>ARROW Product Link</th><th>Mouser Part Number</th><th>Mouser Product Link</th><th>Digikey Part Number</th><th>Digikey Product Link</th><th>Octopart Product Link</th></tr></thead><tbody>
+			<tr><td>D1</td><td>S1G</td><td>S1G</td><td>DIOM5227X250N</td><td>ON Semi 400V 1A, Diode, 2-Pin DO-214AC S1G</td><td>ON Semiconductor</td><td>S1G</td><td><a href="https://www.arrow.com/en/products/s1g/on-semiconductor" target="_blank" rel="noopener noreferrer">https://www.arrow.com/en/products/s1g/on-semiconductor</a></td><td>512-S1G</td><td><a href="https://www2.mouser.com/ProductDetail/ON-Semiconductor-Fairchild/S1G" target="_blank" rel="noopener noreferrer">https://www2.mouser.com/ProductDetail/ON-Semiconductor-Fairchild/S1G</a></td><td>S1GFSTR-ND</td><td><a href="https://www.digikey.com/en/products/detail/on-semiconductor/S1G/965464" target="_blank" rel="noopener noreferrer">https://www.digikey.com/en/products/detail/on-semiconductor/S1G/965464</a></td><td><a href="https://octopart.com/s1g-on+semiconductor-84331273" target="_blank" rel="noopener noreferrer">https://octopart.com/s1g-on+semiconductor-84331273</a></td></tr>
+			<tr><td>K1</td><td>DS1E-S-DC3V</td><td>DS1E-S-DC3V</td><td>DS1ESDC3V</td><td>Low Signal Relays - PCB 1 Form C, 3VDC 1 Form C 200mW Type</td><td>Panasonic</td><td>DS1E-S-DC3V</td><td><a href="https://www.arrow.com/en/products/ds1e-s-dc3v/panasonic" target="_blank" rel="noopener noreferrer">https://www.arrow.com/en/products/ds1e-s-dc3v/panasonic</a></td><td>769-DS1E-S-DC3V</td><td><a href="https://www2.mouser.com/ProductDetail/Panasonic-Industrial-Devices/DS1E-S-DC3V" target="_blank" rel="noopener noreferrer">https://www2.mouser.com/ProductDetail/Panasonic-Industrial-Devices/DS1E-S-DC3V</a></td><td>255-1478-ND</td><td><a href="https://www.digikey.com/en/products/detail/panasonic-electric-works/DS1E-S-DC3V/413288" target="_blank" rel="noopener noreferrer">https://www.digikey.com/en/products/detail/panasonic-electric-works/DS1E-S-DC3V/413288</a></td><td><a href="https://octopart.com/ds1e-s-dc3v-panasonic-689638" target="_blank" rel="noopener noreferrer">https://octopart.com/ds1e-s-dc3v-panasonic-689638</a></td></tr>
+			<tr><td>LED1</td><td>Red Smd LED 0603</td><td>LEDCHIP-LED0603</td><td>CHIP-LED0603</td><td>LED</td><td>Kingbright</td><td>APT1608LSECK/J3-PRV</td><td><a href="https://www.arrow.com/en/products/apt1608lseckj3-prv/kingbright" target="_blank" rel="noopener noreferrer">https://www.arrow.com/en/products/apt1608lseckj3-prv/kingbright</a></td><td>604-APT1608LSECKJ3RV</td><td><a href="https://www2.mouser.com/ProductDetail/Kingbright/APT1608LSECK-J3-PRV" target="_blank" rel="noopener noreferrer">https://www2.mouser.com/ProductDetail/Kingbright/APT1608LSECK-J3-PRV</a></td><td>754-1930-2-ND</td><td><a href="https://www.digikey.com/en/products/detail/kingbright/APT1608LSECK-J3-PRV/5177431" target="_blank" rel="noopener noreferrer">https://www.digikey.com/en/products/detail/kingbright/APT1608LSECK-J3-PRV/5177431</a></td><td><a href="https://octopart.com/apt1608lseck%2Fj3-prv-kingbright-56784107" target="_blank" rel="noopener noreferrer">https://octopart.com/apt1608lseck%2Fj3-prv-kingbright-56784107</a></td></tr>
+			<tr><td>Q1</td><td>BC848ALT1G</td><td>BC848ALT1G</td><td>SOT96P237X111-3N</td><td>ON SEMICONDUCTOR - BC848ALT1G - TRANSISTOR, NPN, 30V, 100MA, SOT-23-3</td><td>ON Semiconductor</td><td>BC848ALT1G</td><td><a href="https://www.arrow.com/en/products/bc848alt1g/on-semiconductor" target="_blank" rel="noopener noreferrer">https://www.arrow.com/en/products/bc848alt1g/on-semiconductor</a></td><td>863-BC848ALT1G</td><td><a href="https://www2.mouser.com/ProductDetail/ON-Semiconductor/BC848ALT1G" target="_blank" rel="noopener noreferrer">https://www2.mouser.com/ProductDetail/ON-Semiconductor/BC848ALT1G</a></td><td>BC848ALT1GOSTR-ND</td><td><a href="https://www.digikey.com/en/products/detail/on-semiconductor/BC848ALT1G/918347" target="_blank" rel="noopener noreferrer">https://www.digikey.com/en/products/detail/on-semiconductor/BC848ALT1G/918347</a></td><td><a href="https://octopart.com/bc848alt1g-on+semiconductor-354396" target="_blank" rel="noopener noreferrer">https://octopart.com/bc848alt1g-on+semiconductor-354396</a></td></tr>
+			<tr><td>R1</td><td>1kΩ</td><td>Smd Resistor 0805</td><td>R0805</td><td>RESISTOR</td><td>Yageo</td><td>RC0805FR-071KL</td><td><a href="https://www.arrow.com/en/products/rc0805fr-071kl/yageo" target="_blank" rel="noopener noreferrer">https://www.arrow.com/en/products/rc0805fr-071kl/yageo</a></td><td>603-RC0805FR-071KL</td><td><a href="https://www2.mouser.com/ProductDetail/Yageo/RC0805FR-071KL" target="_blank" rel="noopener noreferrer">https://www2.mouser.com/ProductDetail/Yageo/RC0805FR-071KL</a></td><td>311-1.00KCRTR-ND</td><td><a href="https://www.digikey.com/en/products/detail/yageo/RC0805FR-071KL/727444" target="_blank" rel="noopener noreferrer">https://www.digikey.com/en/products/detail/yageo/RC0805FR-071KL/727444</a></td><td><a href="https://octopart.com/rc0805fr-071kl-yageo-40025555" target="_blank" rel="noopener noreferrer">https://octopart.com/rc0805fr-071kl-yageo-40025555</a></td></tr>
+			<tr><td>R2</td><td>330Ω</td><td>Smd Resistor 0806</td><td>R0805</td><td>RESISTOR</td><td>Yageo</td><td>RC0805FR-07330RL</td><td><a href="https://www.arrow.com/en/products/rc0805fr-07330rl/yageo" target="_blank" rel="noopener noreferrer">https://www.arrow.com/en/products/rc0805fr-07330rl/yageo</a></td><td>603-RC0805FR-07330RL</td><td><a href="https://www2.mouser.com/ProductDetail/Yageo/RC0805FR-07330RL" target="_blank" rel="noopener noreferrer">https://www2.mouser.com/ProductDetail/Yageo/RC0805FR-07330RL</a></td><td>311-330CRTR-ND</td><td><a href="https://www.digikey.com/en/products/detail/yageo/RC0805FR-07330RL/727866" target="_blank" rel="noopener noreferrer">https://www.digikey.com/en/products/detail/yageo/RC0805FR-07330RL/727866</a></td><td><a href="https://octopart.com/rc0805fr-07330rl-yageo-41204914" target="_blank" rel="noopener noreferrer">https://octopart.com/rc0805fr-07330rl-yageo-41204914</a></td></tr>
+			<tr><td>X1</td><td>Filament Sentinel</td><td>22-23-2031</td><td>Header</td><td>Molex KK 254 PCB Header</td><td>Molex</td><td>22-23-2031</td><td><a href="https://www.arrow.com/en/products/0022232031/molex" target="_blank" rel="noopener noreferrer">https://www.arrow.com/en/products/0022232031/molex</a></td><td>538-22-23-2031</td><td><a href="https://www2.mouser.com/ProductDetail/Molex/22-23-2031" target="_blank" rel="noopener noreferrer">https://www2.mouser.com/ProductDetail/Molex/22-23-2031</a></td><td>WM4201-ND</td><td><a href="https://www.digikey.com/en/products/detail/molex/0022232031/26669" target="_blank" rel="noopener noreferrer">https://www.digikey.com/en/products/detail/molex/0022232031/26669</a></td><td><a href="https://octopart.com/22-23-2031-molex-2587" target="_blank" rel="noopener noreferrer">https://octopart.com/22-23-2031-molex-2587</a></td></tr>
+			<tr><td>X2</td><td>NO Connector</td><td>22-23-2021</td><td>Header</td><td>Molex KK 254 PCB Header</td><td>Molex</td><td>22-23-2021</td><td><a href="https://www.arrow.com/en/products/0022232021/molex" target="_blank" rel="noopener noreferrer">https://www.arrow.com/en/products/0022232021/molex</a></td><td>538-22-23-2021</td><td><a href="https://www2.mouser.com/ProductDetail/Molex/22-23-2021" target="_blank" rel="noopener noreferrer">https://www2.mouser.com/ProductDetail/Molex/22-23-2021</a></td><td>900-0022232021-ND</td><td><a href="https://www.digikey.com/en/products/detail/molex/0022232021/26667" target="_blank" rel="noopener noreferrer">https://www.digikey.com/en/products/detail/molex/0022232021/26667</a></td><td><a href="https://octopart.com/22-23-2021-molex-650" target="_blank" rel="noopener noreferrer">https://octopart.com/22-23-2021-molex-650</a></td></tr>
+			<tr><td>X3</td><td>NC Connector</td><td>22-23-2021</td><td>Header</td><td>Molex KK 254 PCB Header</td><td>Molex</td><td>22-23-2021</td><td><a href="https://www.arrow.com/en/products/0022232021/molex" target="_blank" rel="noopener noreferrer">https://www.arrow.com/en/products/0022232021/molex</a></td><td>538-22-23-2021</td><td><a href="https://www2.mouser.com/ProductDetail/Molex/22-23-2021" target="_blank" rel="noopener noreferrer">https://www2.mouser.com/ProductDetail/Molex/22-23-2021</a></td><td>900-0022232021-ND</td><td><a href="https://www.digikey.com/en/products/detail/molex/0022232021/26667" target="_blank" rel="noopener noreferrer">https://www.digikey.com/en/products/detail/molex/0022232021/26667</a></td><td><a href="https://octopart.com/22-23-2021-molex-650" target="_blank" rel="noopener noreferrer">https://octopart.com/22-23-2021-molex-650</a></td></tr>
+			<tr><td>X5</td><td>Power Connector</td><td>22-23-2031</td><td>Header</td><td>Molex KK 254 PCB Header</td><td>Molex</td><td>22-23-2031</td><td><a href="https://www.arrow.com/en/products/0022232031/molex" target="_blank" rel="noopener noreferrer">https://www.arrow.com/en/products/0022232031/molex</a></td><td>538-22-23-2031</td><td><a href="https://www2.mouser.com/ProductDetail/Molex/22-23-2031" target="_blank" rel="noopener noreferrer">https://www2.mouser.com/ProductDetail/Molex/22-23-2031</a></td><td>WM4201-ND</td><td><a href="https://www.digikey.com/en/products/detail/molex/0022232031/26669" target="_blank" rel="noopener noreferrer">https://www.digikey.com/en/products/detail/molex/0022232031/26669</a></td><td><a href="https://octopart.com/22-23-2031-molex-2587" target="_blank" rel="noopener noreferrer">https://octopart.com/22-23-2031-molex-2587</a></td></tr>
+		</tbody></table>
+	</body>
+</html>
