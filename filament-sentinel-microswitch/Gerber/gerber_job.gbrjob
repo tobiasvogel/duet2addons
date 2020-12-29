@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-12-11T06:33:34Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "filament-sentinel-microswitch"
+        },
+        "Owner": "Tobias X. Vogel <tobias.vogel@linux.com>",
+        "Size": {
+            "X": 87.884,
+            "Y": 19.685
+        }
+    }
+}
